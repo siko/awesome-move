@@ -1,29 +1,34 @@
-# Contributing
 
-We welcome contributions to this list of high-quality Move content — just send a pull request!
+＃贡献
 
-As the list grows over time, we may do more curation by splitting some sections from the list into separate docs and highlight a smaller set of prominent projects on the main list.
+我们欢迎对此高质量移动内容列表的贡献 - 只需发送拉动请求即可！
 
-However, we will always bias toward inclusion of anything a Move community member might find interesting or useful.
+随着列表的增长，我们可以通过将一些部分从列表中分配到单独的文档中，并在主列表上突出显示一组较小的突出项目来进行更多的策划。
 
-## Pull Request Requirements and Guidelines
-Ensure your addition adheres to the following guidelines:
+但是，我们将始终偏向于包含任何事物的社区成员可能会发现有趣或有用的东西。
 
-- **Use the following format**: `[project](link) - Description.`
-- Link should point to the GitHub repo, if applicable.
-- Descriptions should
-  - be short and simple, but descriptive;
-  - not be marketing taglines;
-  - not be title-case;
-  - begin with a capital;
-  - end with a full stop/period;
-  - not have trailing whitespaces.
-- Additions should be added to the bottom of the relevant category.
-- New categories or improvements to the existing categorization are welcome, but should be done in a separate pull request. **Remember to update the [`Contents`](README.md#contents) accordingly!**
-- Check your spelling and grammar.
+确保您对以下准则的遵守：
 
-Thank you for your suggestion!
+ -  **使用以下格式**：`[project](link) - 描述。
 
-## Updating Your Pull Request
+ - 如果适用，链接应指向GitHub回购。
 
-A lot of times, making a PR adhere to the standards above can be difficult. If the maintainers notice anything that we'd like changed, we'll ask you to edit your PR before we merge it. If you're not sure how to do that, [here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on the different ways you can update your PR so that we can merge it.
+ - 描述应该
+
+ - 简单而简单，但描述性；
+
+ - 不是标题案例；
+
+ - 从资本开始；
+
+ - 以完整的停止/期结束；
+
+ - 没有落后的空间。
+
+ - 应将添加添加到相关类别的底部。
+
+ - 欢迎对现有分类的新类别或改进，但应在单独的拉请请求中进行。 **请记住要更新[`contents`]（readme.md＃cottents）相应地！**
+
+谢谢你的建议！
+
+很多时候，使公关遵守上述标准可能很困难。 如果维护者注意到我们想要更改的任何内容，我们将要求您在合并之前对PR进行编辑。 如果您不确定该怎么做，[这里是指南](https://github.com/richardlitt/knowledge/blob/master/master/github/amending-a-commit-guide.m)） 您可以更新您的公关，以便我们合并。
