@@ -13,7 +13,7 @@ Move 是一种用于编写安全智能合约的编程语言，最初由 Facebook
 ## 内容
 
   - [概述](#概述)
-  - [Move驱动的区块链](#Move驱动的区块链)
+  - [Move驱动的链](#Move驱动的链)
   - [书籍](#书籍)
   - [教程](#教程)
   - [社区](#社区)
@@ -40,7 +40,7 @@ Move 是一种用于编写安全智能合约的编程语言，最初由 Facebook
 - [安装](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
 - [问题陈述](docs/problem_statement.md)
 
-## 移动驱动的区块链
+## Move驱动的链
 
 - [Sui](https://github.com/MystenLabs/sui) (在 [devnet](https://medium.com/mysten-labs/sui-devnet-public-release-a2be304ff36b))
 - [0L](https://github.com/OLSF/libra) (在 [mainnet](https://0l.network/))
