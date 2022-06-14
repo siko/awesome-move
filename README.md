@@ -1,5 +1,11 @@
 # Awesome Move 中文版 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+This repository is forked from <a href="https://github.com/MystenLabs/awesome-move
+">Awesome Move
+  
+  
+  </p>
+
 > 来自 [Move](https://github.com/move-language/move) 编程语言社区的代码和内容精选列表。
 
 Move 是一种用于编写安全智能合约的编程语言，最初由 Facebook 开发，用于为 Libra 区块链提供支持。 Move 旨在成为一种与平台无关的语言，以使通用库、工具和开发人员社区能够跨具有截然不同的数据和执行模型的不同区块链。 Move 的目标是成为无处不在的“web3 的 JavaScript”——当开发人员想要快速编写涉及资产的安全代码时，应该使用 Move 编写。
@@ -38,7 +44,7 @@ Move 是一种用于编写安全智能合约的编程语言，最初由 Facebook
 
 - [Sui](https://github.com/MystenLabs/sui) (在 [devnet](https://medium.com/mysten-labs/sui-devnet-public-release-a2be304ff36b))
 - [0L](https://github.com/OLSF/libra) (在 [mainnet](https://0l.network/))
-- [星币](https://github.com/starcoinorg/starcoin) (在[主网](https://stcscan.io/))
+- [Starcoin](https://github.com/starcoinorg/starcoin) (在[主网](https://stcscan.io/))
 - [Pontem](https://github.com/pontem-network) (在 [testnet](https://polkadot.js.org/apps/?rpc=wss://testnet.pontem.network/ws#/explorer)）
 - [Aptos](https://github.com/aptos-labs) (在 [testnet](https://aptos.dev/))
 - [Celo](https://github.com/celo-org) ([即将推出](https://www.businesswire.com/news/home/20210921006104/en/Celo-Sets-Sights-On-Becoming-Fastest-EVM-Chain-Through-Collaboration-With-Mysten-Labs))
@@ -54,10 +60,10 @@ Move 是一种用于编写安全智能合约的编程语言，最初由 Facebook
 
 ## 社区
 
-- [移动@Mysten Labs Discord](https://discord.gg/M95qX3KnG8)
-- [移动语言不和谐](https://discord.gg/9K7ca8Vnr7)
+- [Move @Mysten Labs Discord](https://discord.gg/M95qX3KnG8)
+- [Move Language Discord](https://discord.gg/9K7ca8Vnr7)
 - [Move @ 0L Discord](https://discord.gg/zzXzhbE3aN)
-- [移动@Starcoin Discord](https://discord.gg/starcoin)
+- [Move @Starcoin Discord](https://discord.gg/starcoin)
 
 ## 代码
 
@@ -65,47 +71,47 @@ Move 是一种用于编写安全智能合约的编程语言，最初由 Facebook
 
 ### 可替代代币
 
-- [可替代代币示例](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/fungible_tokens)。来自隋。
-- [BasicCoin](https://github.com/move-language/move/tree/main/language/documentation/examples/experimental/basic-coin) - [ERC20](https://ethereum) 的玩具实现.org/en/developers/docs/standards/tokens/erc-20/) 类似的可替代令牌。
+- [可替代代币示例](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/fungible_tokens)。来自Sui。
+- [BasicCoin](https://github.com/move-language/move/tree/main/language/documentation/examples/experimental/basic-coin) - [ERC20](https://ethereum) 的玩具实现。
 - [Diem](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/Diem.move) - 一种类似 ERC20 的代币，具有许可铸造/燃烧，另请参阅此 [规范](https://github.com/diem/dip/blob/main/dips/dip-20.md)。部署在 0L 上。
-- [代币](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Token.move)- 另一个类似 ERC20 的代币。部署在星币上。
+- [Token](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Token.move)- 另一个类似 ERC20 的代币，部署在Starcoin上。
 - [GAS](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/0L/GAS.move) - 实例化上述 Diem 标准的令牌。部署在 0L 上。
-- [STC](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/STC.move) - 实例化上述星币标准的代币。部署在星币上。
+- [STC](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/STC.move) - 实例化上述Starcoin标准的代币。部署在Starcoin上。
 - [WEN 稳定币](https://github.com/wenwenprotocol/wen-protocol) - 部署在 Starcoin 上。
 - [FAI 稳定币](https://github.com/BFlyFinance/FAI) - 部署在 Starcoin 上。
-- [FLY stablecoin](https://github.com/BFlyFinance/FLY) - 在 Move 中实现的 [Ohm](https://www.olympusdao.finance/) 的分叉。部署在星币上。
+- [FLY stablecoin](https://github.com/BFlyFinance/FLY) - 在 Move 中实现的 [Ohm](https://www.olympusdao.finance/) 的分叉。部署在Starcoin上。
 - [由包含其他代币储备的篮子支持的合成代币](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/XDX.move) - 来自 Diem。
 
 ### 不可替代的代币
 
-- [NFT 示例](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/nfts)。来自隋。
-- [NFT](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/NFT.move) - 类似 ERC721 的代币。部署在星币上。
-- [Merkle Airdrop](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/MerkleNFT.move) - 用于空投大量 NFT 的实用程序。部署在星币上。
-- [NFT](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/NFT.move) - 混合 ERC721/ERC1155 类令牌的实现。来自迪姆。
-- [BARS](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/BARS.move) - 实例化此混合标准的 NFT。来自迪姆。
-- [MultiToken](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/MultiToken.move) - 类似 ERC1155 的令牌。来自迪姆。
-- [NFTGallery](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/NFTGallery.move) - 保存多个相同类型的 NFT 的实用程序。来自迪姆。
+- [NFT 示例](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/nfts)。来自Sui。
+- [NFT](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/NFT.move) - 类似 ERC721 的代币。部署在Starcoin上。
+- [Merkle Airdrop](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/MerkleNFT.move) - 用于空投大量 NFT 的实用程序。部署在Starcoin上。
+- [NFT](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/NFT.move) - 混合 ERC721/ERC1155 类令牌的实现。来自Diem。
+- [BARS](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/BARS.move) - 实例化此混合标准的 NFT。来自Diem。
+- [MultiToken](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/MultiToken.move) - 类似 ERC1155 的令牌。来自Diem。
+- [NFTGallery](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/NFTGallery.move) - 保存多个相同类型的 NFT 的实用程序。来自Diem。
 
 ### DeFi
 
-- [DeFi 示例](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/defi)。来自隋。
+- [DeFi 示例](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/defi)。来自Sui。
 - [CoinSwap](https://github.com/move-language/move/tree/main/language/documentation/examples/experimental/coin-swap) - [Uniswap](https://uniswap.org/) 的玩具实现。 类似的流动性池，包含两个代币。
-- [StarSwap](https://github.com/Elements-Studio/starswap-core) - Uniswap 风格的 DEX。部署在星币上。
+- [StarSwap](https://github.com/Elements-Studio/starswap-core) - Uniswap 风格的 DEX。部署在Starcoin上。
 - [Offer](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/Offer.move) - 任何一对资产的原子交换的通用实现。
 
 ### 链上治理
 
 - [ValidatorUniverse](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/0L/ValidatorUniverse.move) - 验证器集管理。部署在 0L 上。
 - [Oracle](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/0L/Oracle.move) - 用于链上社区投票。部署在 0L 上。
-- [DAO](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Dao.move) - 用于链上提案和投票。部署在星币上。
-- [DiemSystem](https://github.com/diem/diem/blob/main/diem-move/diem-framework/DPN/sources/DiemSystem.move) - 验证器集管理。来自迪姆。
-- [投票](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/Vote.move) - 链上投票。来自迪姆。
+- [DAO](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Dao.move) - 用于链上提案和投票。部署在Starcoin上。
+- [DiemSystem](https://github.com/diem/diem/blob/main/diem-move/diem-framework/DPN/sources/DiemSystem.move) - 验证器集管理。来自Diem。
+- [投票](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/Vote.move) - 链上投票。来自Diem。
   
 ### 帐户
 
-- [帐户](https://github.com/diem/diem/blob/main/diem-move/diem-framework/core/sources/Account.move) - Diem 驱动链的通用帐户。来自迪姆。
+- [帐户](https://github.com/diem/diem/blob/main/diem-move/diem-framework/core/sources/Account.move) - Diem 驱动链的通用帐户。来自Diem。
 - [DiemAccount](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/DiemAccount.move) - 以上的分叉。从 0L。
-- [帐户](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Account.move) - 上述的分叉。来自星币。
+- [帐户](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Account.move) - 上述的分叉。来自Starcoin。
 
 ### 框架
 
@@ -116,7 +122,7 @@ Move **framework** 是包含在链的创世状态中的一组 Move 模块。
 - [Sui 框架](https://github.com/MystenLabs/sui/tree/main/crates/sui-framework)
 - [Aptos 框架](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/framework)
 - [0L 框架](https://github.com/OLSF/libra/tree/main/language/diem-framework/modules/0L)
-- [星币框架](https://github.com/starcoinorg/starcoin-framework)
+- [Starcoin框架](https://github.com/starcoinorg/starcoin-framework)
 - [Diem 框架](https://github.com/diem/diem/tree/main/diem-move/diem-framework/DPN)
 
 ### 库
@@ -124,11 +130,11 @@ Move **framework** 是包含在链的创世状态中的一组 Move 模块。
 - [Move 标准库](https://github.com/move-language/move/tree/main/language/move-stdlib) - 旨在（但不是必需）在每个运行 Move 的平台中使用的实用程序。来自 Move 存储库。
 - [Move Nursery](https://github.com/move-language/move/tree/main/language/move-stdlib/nursery) - 最终可能被提升为标准库的实验模块。来自 Move 存储库。
 - [十进制](https://github.com/OLSF/libra/blob/main/language/diem-framework/modules/0L/Decimal.move) - 十进制值的有效实现。从 0L。
-- [数学](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Math.move) - 数学实用函数。来自星币。
+- [数学](https://github.com/starcoinorg/starcoin-framework/blob/main/sources/Math.move) - 数学实用函数。来自Starcoin。
 - [比较](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/Compare.move) - 多态比较（即比较任意两个移动值同类型）。从托儿所。
 - [Vault](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/Vault.move)和[ACL](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/ACL.move)- 用于功能和基于列表的访问控制的库。从托儿所。
 - [TaoHe](https://github.com/taoheorg/taohe) - 可嵌套的 Move 资源集合。
-- [Starcoin Framework Commons](https://github.com/starcoinorg/starcoin-framework-commons) - Starcoin-framework 上 Move commons 实用程序的库。来自星币。
+- [Starcoin Framework Commons](https://github.com/starcoinorg/starcoin-framework-commons) - Starcoin-framework 上 Move commons 实用程序的库。来自Starcoin。
 
 ### 杂项
 
@@ -170,7 +176,7 @@ Move **framework** 是包含在链的创世状态中的一组 Move 模块。
 
 ## 视频
 
-- [Move：用钱编程的安全语言](https://www.youtube.com/watch?v=EG2-7bQNPv4&ab_channel=FieldsInstitute) - 来自  [@sblackshear](https://github.com/sblackshear) 的谈话) 在 [Fields Institute Blockchain](http://www.fields.utoronto.ca/activities/seminar_series/blockchain-research-seminar-series) 研究研讨会系列。
+- [Move：用钱编程的安全语言](https://www.youtube.com/watch?v=EG2-7bQNPv4&ab_channel=FieldsInstitute) - 来自  [@sblackshear](https://github.com/sblackshear) 的谈话。 在 [Fields Institute Blockchain](http://www.fields.utoronto.ca/activities/seminar_series/blockchain-research-seminar-series) 研究研讨会系列。
 - [Libra 区块链移动程序的正式验证](http://www.fields.utoronto.ca/talks/Formal-verification-Move-programs-Libra-blockchain) - 来自 [@DavidLDill](https://github.com/DavidLDill) 在 [Fields Institute Blockchain](http://www.fields.utoronto.ca/activities/seminar_series/blockchain-research-seminar-series) 研究研讨会系列。
 
 ## 贡献
